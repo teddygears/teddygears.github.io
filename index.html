@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tedd · Automation Specialist</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-inner">
+      <span class="logo">~/tedd</span>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="label">Automation Specialist</p>
+          <h1>I build systems<br>that <span class="highlight">run themselves</span>.</h1>
+          <p class="subtitle">
+            Design, build, and operate production-grade automation pipelines —
+            from customer messaging to AI-driven workflows, all backed by
+            observability and tooling that keeps LLM token costs under control.
+          </p>
+          <div class="hero-cta">
+            <a href="#work" class="btn primary">See the work</a>
+            <a href="#contact" class="btn secondary">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-code">
+          <div class="code-block">
+            <div class="code-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="code-title">~/status</span>
+            </div>
+            <pre><code><span class="cmt"># Automation Ops</span>
+<span class="kw">WORKFLOWS</span>      <span class="val">30+</span>
+<span class="kw">CHANNELS</span>       <span class="val">sms · email · chat</span>
+<span class="kw">STACK</span>          <span class="val">n8n · postgres · python</span>
+<span class="kw">UPTIME</span>         <span class="val">●  all systems nominal</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section id="stats">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-num">30+</span>
+          <span class="stat-label">Production Workflows</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">20+</span>
+          <span class="stat-label">Active in Production</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">7</span>
+          <span class="stat-label">Message Channels</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">99%</span>
+          <span class="stat-label">Delivery Reliability</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work">
+    <div class="container">
+      <p class="section-label">What I Do</p>
+      <h2>Full-spectrum automation<br>engineering.</h2>
+      <div class="phases">
+        <div class="phase">
+          <div class="phase-num">01</div>
+          <h3>Workflow Architecture</h3>
+          <p>Design and build event-driven automation pipelines with fault tolerance, idempotency, and durable logging.</p>
+          <div class="phase-tags">
+            <span>n8n</span>
+            <span>Event-Driven</span>
+            <span>Postgres</span>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">02</div>
+          <h3>Multi-Channel Messaging</h3>
+          <p>Unified send engines handling SMS, email, and chat app messaging with provider normalization and audit trails.</p>
+          <div class="phase-tags">
+            <span>SMS</span>
+            <span>Email</span>
+            <span>Chat APIs</span>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">03</div>
+          <h3>AI Pipeline Integration</h3>
+          <p>Connect AI diagnosis and feedback pipelines to customer delivery flows with proper error handling and monitoring.</p>
+          <div class="phase-tags">
+            <span>AI/LLM</span>
+            <span>API Integration</span>
+            <span>Slack</span>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">04</div>
+          <h3>Observability &amp; Health</h3>
+          <p>Automated health monitors that cross-reference logs, flag delivery gaps, and post actionable alerts.</p>
+          <div class="phase-tags">
+            <span>Monitoring</span>
+            <span>Durable Logging</span>
+            <span>Alerting</span>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">05</div>
+          <h3>LLM Tooling</h3>
+          <p>Build graph-based context systems that index workflows and docs, enabling compact debug packets and reducing token usage by 60–80%.</p>
+          <div class="phase-tags">
+            <span>Python</span>
+            <span>SQLite FTS5</span>
+            <span>Token Optimization</span>
+          </div>
+        </div>
+        <div class="phase">
+          <div class="phase-num">06</div>
+          <h3>Migration &amp; Cutover</h3>
+          <p>Phased migration from legacy flows to event-driven architectures with rollback paths and incremental validation.</p>
+          <div class="phase-tags">
+            <span>Refactoring</span>
+            <span>Event Architecture</span>
+            <span>Validation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label">Key Projects</p>
+      <h2>Systems I've built and<br>run in production.</h2>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">⚙️</span>
+          <div>
+            <h3>Customer Lifecycle Engine</h3>
+            <p class="project-sub">End-to-end multi-phase automation pipeline</p>
+          </div>
+          <span class="project-status live">Live · 20+ workflows</span>
+        </div>
+        <p class="project-desc">
+          A complete multi-phase customer journey automation system spanning onboarding
+          through retention. Routes multi-channel messages with dynamic template selection,
+          shared send engines, durable logging, and compact audit trails. Built with
+          idempotency guards, error recovery paths, and production health monitoring.
+        </p>
+        <div class="project-tech">
+          <span>n8n</span>
+          <span>PostgreSQL</span>
+          <span>REST APIs</span>
+          <span>Event-Driven</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">🔍</span>
+          <div>
+            <h3>Context Graph CLI</h3>
+            <p class="project-sub">LLM-optimized project intelligence tool</p>
+          </div>
+          <span class="project-status tool">Local Tool</span>
+        </div>
+        <p class="project-desc">
+          A CLI tool that indexes automation workflows, database schemas, message templates,
+          and documentation into a searchable graph database. Generates compact, task-specific
+          debug packets that reduce LLM token usage by 60–80% compared to raw JSON dumps.
+          Features cross-workflow field tracing, built-in validation rules, and structured
+          diffing.
+        </p>
+        <div class="project-tech">
+          <span>Python</span>
+          <span>SQLite FTS5</span>
+          <span>CLI Design</span>
+          <span>Token Optimization</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">📬</span>
+          <div>
+            <h3>Event-Driven Messaging Cutover</h3>
+            <p class="project-sub">Phased migration from legacy to event architecture</p>
+          </div>
+          <span class="project-status cutover">Cutover</span>
+        </div>
+        <p class="project-desc">
+          A phased cutover from legacy point-to-point messaging to a unified,
+          event-driven architecture. An event router processes system events and routes
+          them through a shared communication engine with provider-normalized logging,
+          idempotency via HMAC, and template validation.
+        </p>
+        <div class="project-tech">
+          <span>Event-Driven</span>
+          <span>HMAC</span>
+          <span>Durable Logging</span>
+          <span>Migration</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">❤️</span>
+          <div>
+            <h3>Automation Health Monitor</h3>
+            <p class="project-sub">Production observability and gap detection</p>
+          </div>
+          <span class="project-status live">Live</span>
+        </div>
+        <p class="project-desc">
+          A scheduled health monitoring system that cross-references delivery logs with expected
+          lifecycle milestones, automatically flags gaps, and posts detailed Slack reports.
+          Covers multiple pipeline routes with actionable gap analysis.
+        </p>
+        <div class="project-tech">
+          <span>n8n</span>
+          <span>PostgreSQL</span>
+          <span>Slack API</span>
+          <span>Observability</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-header">
+          <span class="project-icon">📊</span>
+          <div>
+            <h3>Multi-Stage Campaign Engine</h3>
+            <p class="project-sub">Time-based campaign with dynamic messaging</p>
+          </div>
+          <span class="project-status live">Live</span>
+        </div>
+        <p class="project-desc">
+          A multi-stage campaign automation engine with personalized messaging,
+          durable send logging, per-recipient audit trails, and a manual override
+          tool. Manages multiple campaign stages with stage-specific message templates.
+        </p>
+        <div class="project-tech">
+          <span>Campaign Automation</span>
+          <span>Template Engine</span>
+          <span>Postgres</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section id="stack">
+    <div class="container">
+      <p class="section-label">Tech Stack</p>
+      <h2>Tools I work with<br>every day.</h2>
+      <div class="stack-grid">
+        <div class="stack-cat">
+          <h3>Automation</h3>
+          <ul>
+            <li>n8n (self-hosted)</li>
+            <li>Custom API tooling</li>
+            <li>Workflow versioning &amp; patching</li>
+          </ul>
+        </div>
+        <div class="stack-cat">
+          <h3>Messaging</h3>
+          <ul>
+            <li>SMS APIs (Twilio, Aligo)</li>
+            <li>Chat app APIs (Kakao, Slack)</li>
+            <li>Email (Gmail, SMTP)</li>
+          </ul>
+        </div>
+        <div class="stack-cat">
+          <h3>Data &amp; Infra</h3>
+          <ul>
+            <li>PostgreSQL</li>
+            <li>SQLite / FTS5</li>
+            <li>CRM integrations</li>
+          </ul>
+        </div>
+        <div class="stack-cat">
+          <h3>Tooling</h3>
+          <ul>
+            <li>Python (CLI tools)</li>
+            <li>Node.js (scripts)</li>
+            <li>Git / GitHub</li>
+            <li>LLM-assisted development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label">Get in Touch</p>
+      <h2>Let's automate<br>something together.</h2>
+      <p class="contact-sub">I'm available for automation consulting,<br>n8n architecture, and production workflow engineering.</p>
+      <div class="contact-links">
+        <a href="mailto:tedd.pepito89@gmail.com" class="btn primary">Email me</a>
+        <a href="https://github.com/teddygears" class="btn secondary">GitHub</a>
+        <a href="https://www.linkedin.com/in/tedd-pepito/" class="btn secondary">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>~/tedd · Automation Specialist · 2026</p>
+    </div>
+  </footer>
+
+</body>
+</html>
